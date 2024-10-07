@@ -13,10 +13,10 @@ switch (language) {
     break;
 }
 
-const lineChart = {
+const hexagonMap = {
   title: {
-    EN: "Line Chart: Average wine score per year",
-    PT: "Gráfico de linhas: Pontuação média de vinho por ano",
+    EN: "Hexagon Map: Average wine score per year",
+    PT: "Mapa de Hexágonos: Pontuação média de vinho por ano",
   },
   yAxis: {
     EN: "Average score",
@@ -32,10 +32,10 @@ const lineChart = {
   },
 };
 
-const hexagonMap = {
+const lineChart = {
   title: {
-    EN: "Hexagon Map: Average wine score per year",
-    PT: "Mapa de Hexágonos: Pontuação média de vinho por ano",
+    EN: "Line Chart: Average wine score per year",
+    PT: "Gráfico de linhas: Pontuação média de vinho por ano",
   },
   yAxis: {
     EN: "Average score",

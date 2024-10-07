@@ -3,31 +3,11 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
   }
-  
+
   .container {
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-    "HexahonMap LineChart"
-    "Panel ScatterPlot";
-  }
-
-  .LineChart {
-    grid-area: LineChart;
-  }
-
-  .ScatterPlot {
-    grid-area: ScatterPlot;
-  }
-
-  .HexagonMap {
-    grid-area: HexagonMap;
-  }
-
-  .Panel {
-    grid-area: Panel;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .tooltip {

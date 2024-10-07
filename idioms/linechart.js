@@ -1,8 +1,8 @@
 function createLineChart(data) {
     // Set the dimensions and margins of the graph
     const margin = { top: 20, right: 30, bottom: 50, left: 60 },
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        width = 1300,
+        height = 200;
 
     // Append the svg object to the body of the page
     const svg = d3.select(".LineChart")

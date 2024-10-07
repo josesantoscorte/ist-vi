@@ -4,10 +4,8 @@ function createScatterPlot(){
                 y: Math.random() * 100
         }));
 
-        const svgWidth = 500, svgHeight = 500;
-
         const margin = { top: 20, right: 30, bottom: 30, left: 40 },
-        width = 800 - margin.left - margin.right,
+        width = 600 - margin.left - margin.right,
         height = 400 - margin.top - margin.bottom;
 
         const svg = d3.select("body").append("svg")

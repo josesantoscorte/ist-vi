@@ -5,7 +5,6 @@ function init() {
     // Create the line chart
     createHexagonMap();
     createLineChart(filteredData);
-    createPanel();
     createScatterPlot();
   });
 }

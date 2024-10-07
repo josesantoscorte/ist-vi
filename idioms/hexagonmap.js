@@ -1,5 +1,5 @@
 function createHexagonMap() {
-    const width = 650;
+    const width = 800;
     const height = 400;
     const hexRadius = 20;
 
