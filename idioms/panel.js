@@ -1,4 +1,4 @@
-function createHexagonMap() {
+function createPanel() {
     const width = 650;
     const height = 400;
     const hexRadius = 20;

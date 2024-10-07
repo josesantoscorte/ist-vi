@@ -15,6 +15,9 @@ function init() {
     });
   
     // Create the line chart
+    createHexagonMap();
     createLineChart(incidentsArray);
+    createPanel();
+    createScatterPlot();
   });
 }

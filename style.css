@@ -10,10 +10,23 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
-      "LineChart LineChart";
+      "HexagonMap LineChart Panel ScatterPlot";
   }
   .LineChart {
     grid-area: LineChart;
+  }
+
+  .ScatterPlot {
+    grid-area: ScatterPlot;
+  }
+
+  .HexagonMap {
+    grid-area: HexagonMap;
+    margin: 10px 10px;
+  }
+
+  .Panel {
+    grid-area: Panel;
   }
 
   .tooltip {

@@ -50,3 +50,22 @@ const hexagonMap = {
     PT: "Pontuação Média: ",
   },
 };
+
+const scatterPlot = {
+  title: {
+    EN: "Scatter Plot: Average wine score per year",
+    PT: "Gráfico de Dispersão: Pontuação média de vinho por ano",
+  },
+  yAxis: {
+    EN: "Average score",
+    PT: "Pontuação Média",
+  },
+  xAxis: {
+    EN: "Year",
+    PT: "Ano",
+  },
+  info: {
+    EN: "Average score: ",
+    PT: "Pontuação Média: ",
+  },
+};
