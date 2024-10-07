@@ -10,8 +10,10 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
-      "HexagonMap LineChart Panel ScatterPlot";
+    "HexahonMap LineChart"
+    "Panel ScatterPlot";
   }
+
   .LineChart {
     grid-area: LineChart;
   }
@@ -22,7 +24,6 @@ body {
 
   .HexagonMap {
     grid-area: HexagonMap;
-    margin: 10px 10px;
   }
 
   .Panel {
