@@ -1,4 +1,7 @@
 function createLineChart(data) {
+   // Clear any existing SVG elements
+    d3.select(".LineChart").selectAll("*").remove();
+
   // Set the dimensions and margins of the graph
   const margin = { top: 20, right: 30, bottom: 50, left: 60 },
     width = 1300,
@@ -132,5 +135,20 @@ function createLineChart(data) {
       yAxis.transition().duration(1000).call(d3.axisLeft(y));
 
       drawLines(filteredData, xMonth, months);
+
+     // Show the reset button
+        d3.select("#resetButton").style("display", "block");
     });
+
+    // Add a reset button
+    d3.select(".LineChart")
+        .append("button")
+        .attr("id", "resetButton")
+        .text("Reset")
+        .style("display", "none")
+        .on("click", function() {
+            createLineChart(data);
+        });
 }
+
+
