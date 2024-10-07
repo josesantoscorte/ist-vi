@@ -3,18 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Gun Violence Incidents</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="./static/favicon.svg" type="image/x-icon" />
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="./idioms/language.js"></script>
     <script src="./idioms/linechart.js"></script>
+    <script src="./idioms/hexagonmap.js"></script>
+    <script src="./idioms/scatterplot.js"></script>
     <script src="./script.js"></script>
   </head>
   <body onload="init()">
     <div class="container">
+      <div class="tooltip" id="tooltip"></div>
       <div class="LineChart"></div>
-    </div>
+      <div class="HexagonMap"></div>
+      <div class="Scatterplot"></div>
+    </div> 
   </body>
 </html>

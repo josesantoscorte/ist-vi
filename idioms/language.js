@@ -31,3 +31,22 @@ const lineChart = {
     PT: "Pontuação Média: ",
   },
 };
+
+const hexagonMap = {
+  title: {
+    EN: "Hexagon Map: Average wine score per year",
+    PT: "Mapa de Hexágonos: Pontuação média de vinho por ano",
+  },
+  yAxis: {
+    EN: "Average score",
+    PT: "Pontuação Média",
+  },
+  xAxis: {
+    EN: "Year",
+    PT: "Ano",
+  },
+  info: {
+    EN: "Average score: ",
+    PT: "Pontuação Média: ",
+  },
+};
