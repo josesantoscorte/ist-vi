@@ -8,18 +8,22 @@
     <link rel="icon" href="./static/favicon.svg" type="image/x-icon" />
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-hexbin@0.2"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
     <script src="./idioms/language.js"></script>
     <script src="./idioms/linechart.js"></script>
     <script src="./idioms/hexagonmap.js"></script>
     <script src="./idioms/scatterplot.js"></script>
+    <script src="./idioms/panel.js"></script>
     <script src="./script.js"></script>
   </head>
   <body onload="init()">
     <div class="container">
       <div class="tooltip" id="tooltip"></div>
-      <div class="LineChart"></div>
       <div class="HexagonMap"></div>
-      <div class="Scatterplot"></div>
+      <div class="LineChart"></div>
+      <div class="Panel"></div>
+      <div class="ScatterPlot"></div>
     </div> 
   </body>
 </html>
